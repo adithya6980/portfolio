@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gulla Adithya - Portfolio</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #a6c0fe 0%, #f68084 100%);
+            background-size: cover;
+            color: white;
+        }
+        .container-custom {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.6);
+            border-radius: 15px;
+        }
+        .profile-picture {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+            border: 3px solid white;
+        }
+        .hero {
+            background: none;
+            padding: 80px 0;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            font-weight: 700;
+        }
+        .hero p {
+            font-size: 1.5rem;
+            color: #f8f9fa;
+        }
+        .section-title {
+            font-size: 2.5rem;
+            font-weight: 600;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 1.1rem;
+            line-height: 1.7;
+        }
+        h3 {
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+        }
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .skills-list li {
+            flex: 0 0 45%;
+            margin-bottom: 20px;
+        }
+        .contact-section a {
+            color: #f8f9fa;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .contact-section a:hover {
+            text-decoration: underline;
+        }
+        .fa-linkedin, .fa-instagram, .fa-whatsapp {
+            color: white;
+            font-size: 2rem;
+            margin-right: 10px;
+        }
+        .mesh-light {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 50px;
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+        }
+        .download-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #007bff;
+            color: white;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 20px;
+        }
+        .download-button:hover {
+            background: #0056b3;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px 0;
+            font-size: 1rem;
+            color: #f8f9fa;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header / Hero Section -->
+    <section class="hero">
+        <div class="container-custom">
+            <img src="profile-picture.png.jpg" alt="Gulla Adithya" class="profile-picture">
+            <h1>Gulla Adithya</h1>
+            <p>Aspiring AI and Data Science Professional</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="container-custom my-5">
+        <h2 class="section-title">About Me</h2>
+        <p>
+            I am a recent graduate in Artificial Intelligence and Machine Learning with a passion for technology, data science, and analysis.
+            I have a solid understanding of Python, Exploratory Data Analysis (EDA), and web development, and I am eager to apply my skills in a professional environment.
+        </p>
+    </section>
+
+    <!-- Resume Section -->
+    <section class="container-custom my-5">
+        <h2 class="section-title">Resume</h2>
+        <div class="row">
+            <div class="col-md-12">
+                <h3>Education</h3>
+                <ul>
+                    <li><strong>B.Tech/B.E. in Artificial Intelligence and Machine Learning</strong> - AVN Institute of Engineering & Technology, Ranga Reddy (2024)</li>
+                    <li><strong>Diploma</strong> - Passed in 2021 (Grade: 70-74.9%)</li>
+                    <li><strong>Class X</strong> - Passed in 2018 (Grade: 75-79.9%)</li>
+                </ul>
+                <a href="Resume_2024-07-17_8123522_1723098578786_Gulla Adithya.pdf" download class="download-button">Download Resume</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="container-custom my-5">
+        <div class="mesh-light">
+            <h2 class="section-title">Skills</h2>
+            <ul class="skills-list">
+                <li>Python Programming</li>
+                <li>Machine Learning Algorithms</li>
+                <li>Data Analysis</li>
+                <li>Exploratory Data Analysis (EDA)</li>
+                <li>Web Development (HTML, CSS, JavaScript)</li>
+                <li>AI/ML Project Development</li>
+                <li>Problem Solving</li>
+                <li>Version Control (Git)</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="container-custom my-5">
+        <h2 class="section-title">Projects</h2>
+        <h3>Career Guidance using Machine Learning</h3>
+        <p>
+            A Career Guidance Engine that predicts suitable career paths based on user inputs regarding work, hobbies, specialties, and areas of interest.
+        </p>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="container-custom my-5 contact-section">
+        <h2 class="section-title">Contact Me</h2>
+        <p><strong>Email:</strong> adithya8820@gmail.com</p>
+        <p><strong>Phone:</strong> +91-9885419937</p>
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/gulla-adithya-3403a62a9" target="_blank"><i class="fab fa-linkedin"></i> Gulla Adithya</a></p>
+        <p><strong>Instagram:</strong> <a href="https://www.instagram.com/adithya_6980" target="_blank"><i class="fab fa-instagram"></i> @adithya_6980</a></p>
+        <p><strong>WhatsApp:</strong> <a href="https://wa.me/919885419937" target="_blank"><i class="fab fa-whatsapp"></i> +91-9885419937</a></p>
+    </section>
+
+    <!-- Footer with Date, Time, and Thank You Message -->
+    <div class="footer">
+        <p>Thank you for visiting my website!</p>
+        <p id="datetime"></p>
+    </div>
+
+    <script>
+        // Display current date and time
+        function updateDateTime() {
+            const now = new Date();
+            const formattedDate = now.toLocaleDateString('en-IN', { day: 'numeric', month: 'long', year: 'numeric' });
+            const formattedTime = now.toLocaleTimeString('en-IN');
+            document.getElementById('datetime').textContent = `Current Date and Time: ${formattedDate}, ${formattedTime}`;
+        }
+        updateDateTime();
+        setInterval(updateDateTime, 1000);
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
